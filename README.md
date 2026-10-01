@@ -1,6 +1,6 @@
 Apresenta a evolução histórica do percentual de esgoto tratado em relação à água consumida em 1997 municípios do RS (1998–2022).
 
-• Visualização: ![Heatmap de Esgoto Tratado no RS](heatmap_esgoto_RS.png)
+• Visualização: ![Heatmap de Esgoto Tratado no RS](heatmap_efluente_RS.png)
 
 • Metodologia: Mapa de calor bidimensional ordenado de forma decrescente pelo desempenho em 2022.
 
