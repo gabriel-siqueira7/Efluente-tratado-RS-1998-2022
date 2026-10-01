@@ -73,12 +73,12 @@ sns.heatmap(
     vmax=100,
     linewidths=0.05,
     linecolor='#e0e0e0',
-    cbar_kws={'label': 'Índice de Esgoto Tratado (%)', 'shrink': 0.5},
+    cbar_kws={'label': 'Índice de Efluente Tratado (%)', 'shrink': 0.5},
     yticklabels=True,
     ax=ax
 )
 
-plt.title('Evolução do Esgoto Tratado por Município do RS (1998–2022)', fontsize=18, fontweight='bold', pad=20)
+plt.title('Evolução do Efluente Tratado por Município do RS (1998–2022)', fontsize=18, fontweight='bold', pad=20)
 plt.xlabel('Ano', fontsize=13, labelpad=10)
 plt.ylabel('Município', fontsize=13, labelpad=10)
 plt.yticks(fontsize=7)
@@ -87,7 +87,7 @@ plt.xticks(rotation=45, fontsize=10)
 # 8. Adiciona Fonte Oficial (Dados RS / SPGG-DEE) e Autor
 plt.figtext(
     0.08, 0.01, 
-    "Fonte: Portal Dados RS — SPGG/DEE (Saneamento - Esgoto - Tratamento)", 
+    "Fonte: Portal Dados RS — SPGG/DEE (Saneamento - Efluente - Tratamento)", 
     fontsize=10, 
     fontstyle='italic', 
     color='#333333', 
@@ -107,8 +107,8 @@ plt.figtext(
 plt.subplots_adjust(bottom=0.03)
 
 # Salva em 300 DPI e exibe
-plt.savefig('heatmap_esgoto_RS.png', dpi=300, bbox_inches='tight')
-print("Heatmap atualizado e salvo como 'heatmap_esgoto_RS.png'!")
+plt.savefig('heatmap_efluente_RS.png', dpi=300, bbox_inches='tight')
+print("Heatmap atualizado e salvo como 'heatmap_efluente_RS.png'!")
 plt.show()
 
 
